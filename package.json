@@ -1,0 +1,19 @@
+{
+  "name": "webdrivertests",
+  "version": "1.0.0",
+  "description": "WebdriverIO framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marb61a/WebDriverIOTesting.git"
+  },
+  "author": "Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marb61a/WebDriverIOTesting/issues"
+  },
+  "homepage": "https://github.com/marb61a/WebDriverIOTesting#readme"
+}
