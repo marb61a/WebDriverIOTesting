@@ -1,9 +1,8 @@
-var webdriverio = require('webdriverio');
-var options = { desiredCapabilities: { browserName: 'firefox' } };
-var client = webdriverio.remote(options);
-
-client
-    .init()
+browser
+    .setVuewPortSIze({
+    	width: 1200,
+    	height: 800        
+    })
     .url('http://www.webdriveruniversity.com/')
     .click('#login-portal')
     .getTitle().then(function(title) {
